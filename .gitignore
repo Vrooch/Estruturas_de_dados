@@ -1,0 +1,74 @@
+# .gitignore para projetos C# (Visual Studio / .NET / Rider)
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+.nuget/
+.nuget/packages/
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# ReSharper
+_ReSharper*/
+*.DotSettings
+*.DotSettings.user
+
+# MonoDevelop / Xamarin
+*.pidb
+*.userprefs
+
+# Logs, temporários e caches
+*.log
+*.tmp
+*.cache
+*.bak
+*~
+*.swp
+
+# Banco de dados locais / arquivos de modelo
+*.mdf
+*.ldf
+*.ndf
+*.dbmdl
+*.sdf
+
+# Binários e símbolos gerados
+*.exe
+*.dll
+*.pdb
+*.mdb
+
+# Arquivos de pacote / publicação
+*.Publish.xml
+*.pubxml
+publish/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos gerados por ferramentas/IDE
+.vscode/
+.idea/
+.ionide/
+.ionide/cache/
+
+# Fim
